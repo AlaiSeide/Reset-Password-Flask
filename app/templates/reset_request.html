@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Solicitar Redefinição de Senha</title>
+</head>
+<body>
+    <h1>Solicitar Redefinição de Senha</h1>
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.email.label }} {{ form.email }}
+        {{ form.submit }}
+    </form>
+</body>
+</html>
